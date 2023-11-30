@@ -1,6 +1,6 @@
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Notice from "./components/Notice";
+import Header from "./components/DefaultUI/Header";
+import Footer from "./components/DefaultUI/Footer";
+import Notice from "./components/Notice/Notice";
 
 import style from "./css/style_default.module.css";
 

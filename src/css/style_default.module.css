@@ -31,13 +31,9 @@ body {
 
 /* Footer.js footer CSS */
 .footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 0 100px;
 }
 /* Footer.js footer__left CSS */
 .footer__left {
