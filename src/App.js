@@ -1,12 +1,15 @@
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
+import style from "./css/style_default.module.css";
 
-function App() {
+const App = () => {
   return (
-    <>
-     <h1>Hello!</h1>
-     <button>World!</button>
-    </>
+    <div className={style.main}>
+      <Header />
+      <Footer />
+    </div>
   );
-}
+};
 
 export default App;

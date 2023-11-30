@@ -1,0 +1,61 @@
+* {
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* App.js main CSS */
+.main {
+  padding: 0 100px;
+  height: auto;
+}
+/* Header.js head CSS */
+.head {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+/* Header.js head__gnb CSS */
+.head__gnb {
+  display: flex;
+}
+/* Header.js head__sub_gnb CSS */
+.head__sub_gnb {
+  display: flex;
+}
+
+/* Footer.js footer CSS */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 100px;
+}
+/* Footer.js footer__left CSS */
+.footer__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 500px;
+}
+/* Footer.js footer__left__title CSS */
+.footer__left__title {
+  display: flex;
+  padding: 0;
+}
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer__right__title {
+  display: flex;
+}
