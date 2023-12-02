@@ -21,8 +21,8 @@ const NoticeWrap = ({ noticeData }) => {
           <li>등록일</li>
         </ul>
         {noticeData.map((notice) => (
-          <ul key={notice.id} className={style.notice__content__text}>
-            <li>{notice.id}</li>
+          <ul key={notice.noticeId} className={style.notice__content__text}>
+            <li>{notice.noticeId}</li>
             <li>{notice.title}</li>
             <li>{notice.createdAt}</li>
           </ul>
